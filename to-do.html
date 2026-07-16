@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist 실습</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <main class="container">
+        <h1>📝오늘 할 일 ✅</h1>
+        <p class="description">오늘 할 일을 입력하고 관리해 봅시다.</p>
+        <form id="todoForm" class="todo-form">
+            <input type="text" id="todoInput" placeholder="할 일을 입력하세요" autocomplete="off">
+            <button type="submit">추가</button>
+        </form>
+        <ul id="todoList" class="todo-list"></ul>
+    </main>
+    <script src="to-do.js"></script>
+</body>
+</html>
